@@ -964,7 +964,6 @@ a.brand:focus{
 }
 
 .copy-bottom{
-  display: none;
   position: absolute;
   z-index: 10;
   left:0;
