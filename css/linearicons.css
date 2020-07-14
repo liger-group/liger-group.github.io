@@ -1,6 +1,7 @@
 @font-face {
 	font-family: 'Linearicons';
 	src: url('../fonts/Linearicons.ttf') format('truetype');
+	font-display: swap;
 	font-weight: normal;
 	font-style: normal;
 }
