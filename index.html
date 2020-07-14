@@ -1,24 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-<!-- Favicons -->
-<link rel="shortcut icon" href="favicon.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	<title>Liger Group</title> 
 
-<title>Liger Group</title> 
-
-<!-- Styles -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i&display=swap" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" media="screen">
+	<!-- Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i&display=swap" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" media="screen">
 </head>
+
 <body>
   <div class="animsition">   
     <div class="loader"><div class="spinner"><div class="double-bounce1"></div><div class="double-bounce2"></div></div></div>
@@ -33,22 +34,22 @@
       <span class="close-menu icon-cross2 right-boxed"></span>
       <ul class="menu-list right-boxed">
         <li  data-menuanchor="page1">
-          <a href="#page1">Home</a>
+          <a href="#page1" data-i18n="home-nav">Home</a>
         </li>
         <li  data-menuanchor="page2">
-          <a href="#page2">About us</a>
+          <a href="#page2" data-i18n="aboutus-nav">About us</a>
         </li>
         <li  data-menuanchor="page3">
-          <a href="#page3">Team</a>
+          <a href="#page3" data-i18n="team-nav">Team</a>
         </li>
 		<li  data-menuanchor="page4">
-          <a href="#page4">Portfolio</a>
+          <a href="#page4" data-i18n="portfolio-nav">Portfolio</a>
         </li>
 		<!--<li  data-menuanchor="page4">
           <a href="#page5">Clients</a>
         </li>-->
         <li  data-menuanchor="page4">
-          <a href="#page5">Contact</a>
+          <a href="#page5" data-i18n="contact-nav">Contact</a>
         </li>
       </ul>
     </div>
@@ -63,8 +64,6 @@
           <div class="brand-name">Liger Group</div>
         </div>
       </a>
-
-
 
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
         <span class="icon-bar"></span>
@@ -88,6 +87,7 @@
         <div class="contact-item">
           <a href="mailto:contact@Liger Group.com">info@ligergroup.com</a>
         </div>
+		
       </div>
     </header>
 	
@@ -95,7 +95,7 @@
 		
 		<select class="language span3">
 				<option value="en">English</option>
-				<!--<option value="es">Spanish</option>-->
+				<option value="es">Spanish</option>
 			</select>
 		 © Liger Group 2020.  
 	</div>
@@ -111,7 +111,7 @@
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-8 col-lg-8">
-                          <h1 class="display-2 text-white  wow fadeIn" data-wow-delay="0.1s"><span class="text-primary">Hi,</span> we are <br> Liger Group</h1>
+                          <h1 class="display-2 text-white wow fadeIn" data-wow-delay="0.1s"><span class="text-primary" data-i18n="hi">Hi,</span><span data-i18n="we-are"> we are </span><br> Liger Group</h1>
                           <!--<a class="popup-youtube"  href="http://www.youtube.com/watch?v=X"><span class="icon ion-ios-play"></span>Watch video </a>-->
                         </div>
                       </div>
@@ -126,28 +126,28 @@
       <div data-anchor="about" class="pp-scrollable section section-2">
         <div class="scroll-wrap">
           <div class="scrollable-content">
-            <div class="vertical-title text-white d-none d-lg-block"><span>tech</span></div>
+            <div class="vertical-title text-white d-none d-lg-block"><span data-i18n="tech"></span></div>
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
-                      <h3 class="title"> <span class="text-primary">What</span> do we do? <span class="text-primary">Affordable</span>, <span class="text-primary">effective</span> and <span class="text-primary">innovative</span> custom software engineered solutions for organizations, businesses and individuals.</h2>
+                      <h3 class="title"> <span class="text-primary" data-i18n="what"></span><span data-i18n="dwd"></span><span class="text-primary" data-i18n="affordable"></span>, <span class="text-primary" data-i18n="effective"></span><span data-i18n="and"></span><span class="text-primary" data-i18n="innovative"></span><span data-i18n="solutions"></span></h2>
                       <div class="row-specialization row">
                         <div class="col-specialization col-md-6 col-lg-4">
                           <span class="icon-specialization icon-laptop-phone"></span>
-                          <h4 class="text-uppercase">Design</h4>
-                          <p>We are specialists in software systems architecture, front-end, interfaces and corporate image design.</p>
+                          <h4 class="text-uppercase" data-i18n="design"></h4>
+                          <p data-i18n="design-data"></p>
                         </div>
                         <div class="col-specialization col-md-6 col-lg-4">
                           <span class="icon-specialization icon-smartphone-embed"></span>
-                          <h4 class="text-uppercase">Development</h4>
-                          <p>We use state-of-the-art technology to build solutions that exceed our clients' expectations with an unbeatable cost-benefit ratio.</p>
+                          <h4 class="text-uppercase" data-i18n="development"></h4>
+                          <p data-i18n="development-data"></p>
                         </div>
                         <div class="col-specialization col-md-6 col-lg-4">
                           <span class="icon-specialization icon-diamond2"></span>
-                          <h4 class="text-uppercase">Consulting</h4>
-                          <p>Putting knowledge into action in a market ruled by new trends: we advise and solve problems in a personalized way.</p>
+                          <h4 class="text-uppercase" data-i18n="consulting"></h4>
+                          <p data-i18n="consulting-data"></p>
                         </div>
                       </div>
                       <!--<div class="view-all">
@@ -168,7 +168,7 @@
 	<div class="scroll-wrap">
 	  <div class="section-bg" style="background-image:url(images/bg/reviews.jpg);"></div>
 	  <div class="scrollable-content">
-		<div class="vertical-title  d-none d-lg-block"><span>team</span></div>
+		<div class="vertical-title  d-none d-lg-block"><span data-i18n="team"></span></div>
 		<div class="vertical-centred">
 		  <div class="boxed boxed-inner">
 			<div class="boxed">
@@ -187,13 +187,13 @@
 						  <div class="col-md-3 pt-4 my-auto text">
 							<div class="review-author">
 							  <div class="author-name">Darío Fernández Torre</div>
-							  <i>Systems Engineering</i><br>
+							  <i data-i18n="se"></i><br>
 							  <i>- Frontend + UX/UI</i>
 							</div>
 						  </div>
 						  <div class="col-md-6 my-auto text">
 							<ul>
-							  <li>Linkedin: <a href="https://www.linkedin.com/in/darioft/"><strong>Click here.</strong></a></li>
+							  <li>Linkedin: <a href="https://www.linkedin.com/in/darioft/"><strong data-i18n="click-here"></strong></a></li>
 							  <li>Email: <a class="mail" href="mailto:darioft@ligergroup.com"><strong>darioft@ligergroup.com</strong></a></li>
 							</ul>
 						  </div>
@@ -210,13 +210,13 @@
 						  <div class="col-md-3 pt-4 my-auto text">
 							<div class="review-author">
 							  <div class="author-name">Santiago Wagner</div>
-							  <i>Systems Engineering</i><br>
+							  <i data-i18n="se"></i><br>
 							  <i>- Backend + DB MGMT</i>
 							</div>
 						  </div>
 						  <div class="col-md-6 my-auto text">
 							<ul>
-							  <li>Linkedin: <a href="https://www.linkedin.com/in/santiago-wagner-70565482/"><strong>Click here.</strong></a></li>
+							  <li>Linkedin: <a href="https://www.linkedin.com/in/santiago-wagner-70565482/"><strong data-i18n="click-here"></strong></a></li>
 							  <li>Email: <a class="mail" href="mailto:santiagow@ligergroup.com"><strong>santiagow@ligergroup.com</strong></a></li>
 							</ul>
 						  </div>
@@ -271,7 +271,7 @@
             <div class="section-bg" style="background-image:url(images/bg/project4.jpg);"></div>
           </div>
           <div class="scrollable-content">
-            <div class="vertical-title  d-none d-lg-block"><span>portfolio</span></div>
+            <div class="vertical-title  d-none d-lg-block"><span data-i18n="portfolio"></span></div>
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
                 <div class="boxed">
@@ -283,7 +283,7 @@
                             <a class="active" href="#">
                               <span class="project-number">01</span>
                               <h2 class="project-title">RM Seguridad</h2>
-                              <div class="project-category">Web Design and Programming</div>
+                              <div class="project-category" data-i18n="wd-programming"></div>
                             </a>
                           </div>
                           <!--<div class="project-row">
@@ -348,7 +348,7 @@
         <div class="scroll-wrap">
           <div class="section-bg" style="background-image:url(images/bg/contact.jpg);"></div>
           <div class="scrollable-content">
-            <div class="vertical-title text-white d-none d-lg-block"><span>contact</span></div>
+            <div class="vertical-title text-white d-none d-lg-block"><span data-i18n="contact"></span></div>
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
                 <div class="boxed">
@@ -369,22 +369,22 @@
                             <form action="https://formspree.io/xlepjyro" method="POST">
                               <div class="row">
                                 <div class="form-group col-sm-6">
-                                  <input type="text" name="name" required="" placeholder="Name*" aria-required="true">
+                                  <input type="text" name="name" required="" data-i18n="[placeholder]name-input" aria-required="true">
                                 </div>
                                 <div class="form-group col-sm-6">
-                                  <input type="email" required="" name="email" placeholder="Email*">
+                                  <input type="email" required="" name="email" data-i18n="[placeholder]email-input">
                                 </div>
                                 <div class="form-group col-sm-12">
-                                  <input type="text" name="subject" placeholder="Subject (Optional)">
+                                  <input type="text" name="subject" data-i18n="[placeholder]subject-input">
                                 </div>
                                 <div class="form-group col-sm-12">
-                                  <textarea name="message" required="" placeholder="Message*"></textarea>
+                                  <textarea name="message" required="" data-i18n="[placeholder]message-input"></textarea>
                                 </div>
                                 <div class="form-group form-group-message col-sm-12">
-                                  <span id="success" class="text-primary">Thank you, we'll be in touch very soon!</span>
-                                  <span id="error" class="text-primary">We're sorry there was an error with your form.</span>
+                                  <span id="success" class="text-primary" data-i18n="msg-success"></span>
+                                  <span id="error" class="text-primary" data-i18n="msg-error"></span>
                                 </div>
-                                <div class="col-sm-12"><button type="submit" class="btn">Send</button></div>
+                                <div class="col-sm-12"><button type="submit" class="btn" data-i18n="send"></button></div>
                               </div>
                             </form>
                           </div>
@@ -400,18 +400,61 @@
       </div>
     </div>
   </div>
+
+
 <!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/animsition.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.pagepiling.min.js"></script>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/animsition.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.pagepiling.min.js"></script>
+	<script src="js/i18n/CLDRPluralRuleParser.js"></script>
+	<script src="js/i18n/jquery.i18n.js"></script>
+	<script src="js/i18n/jquery.i18n.messagestore.js"></script>
+	<script src="js/i18n/jquery.i18n.fallbacks.js"></script>
+	<script src="js/i18n/jquery.i18n.language.js"></script>
+	<script src="js/i18n/jquery.i18n.parser.js"></script>
+	<script src="js/i18n/jquery.i18n.emitter.js"></script>
+	<script src="js/i18n/jquery.i18n.emitter.bidi.js"></script>
 
-<!-- Scripts -->
-<script src="js/scripts.js"></script> 
+	<!-- Scripts -->
+	<script src="js/scripts.js"></script> 
+
+	<script>
+
+	function updateText() {
+		'use strict';
+		var i18n = $.i18n(), language;
+
+		language = $( '.language option:selected' ).val();
+
+		i18n.locale = language;
+		i18n.load( 'js/i18n/languages/' + i18n.locale + '.json', i18n.locale ).done(
+			function () {
+				$('html').i18n();
+				$( 'div.row > input' ).prop( {
+					placeholder: $.i18n( 'appname-placeholder' )
+				} );
+				//var personName = $.i18n( person ), localizedMessage = $.i18n( message, personName,
+				//	kittens, gender );
+				//$( '.result' ).text( localizedMessage ).prop( 'title', i18n.localize( message ) );
+			} );
+	}
+	
+	// Enable debug
+	$.i18n.debug = true;
+
+	$( document ).ready( function ( $ ) {
+		'use strict';
+		updateText();
+		$( '.language' ).on( 'change keyup', updateText );
+	} );
+
+	</script>
+
 </body>
 </html>
