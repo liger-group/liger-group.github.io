@@ -71,7 +71,7 @@
 
     <header class="navbar navbar-fullpage boxed">
       <div class="navbar-bg"></div>
-      <a class="brand" href="#">
+      <a class="brand" href="#page1">
         <img alt="" src="images/brand.png">
         <div class="brand-info">
           <div class="brand-name">Liger Group</div>
@@ -100,7 +100,6 @@
         <div class="contact-item">
           <a href="mailto:info@ligergroup.com">info@ligergroup.com</a>
         </div>
-		
       </div>
     </header>
 	
@@ -109,7 +108,7 @@
 			<option value="en" aria-label="English">English</option>
 			<option value="es" aria-label="Español">Español</option>
 		</select>
-		 © Liger Group 2020.  
+		 © Liger Group <span id="year"></span>  
 	</div>
 	
     <div class="pagepiling">
@@ -291,7 +290,7 @@
                       <div class="row">
                         <div class="col-md-12">
                           <div class="project-row">
-                            <a class="active" href="#">
+                            <a class="active" href="project-detail-1.html">
                               <span class="project-number">01</span>
                               <h2 class="project-title">RM Seguridad</h2>
                               <div class="project-category" data-i18n="wd-programming"></div>
@@ -459,6 +458,10 @@
 		$( '.language' ).on( 'change keyup', updateText );
 	} );
 
+	</script>
+	
+	<script>
+		document.getElementById("year").innerHTML = new Date().getFullYear();
 	</script>
 
 </body>

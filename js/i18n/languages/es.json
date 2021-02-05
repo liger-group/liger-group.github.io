@@ -35,5 +35,14 @@
   "message-input": "Mensaje*",
   "msg-success": "¡Gracias, nos pondremos en contacto a la brevedad!",
   "msg-error": "Lo sentimos, ocurrió un error con el fomrulario.",
-  "send": "Enviar"
+  "send": "Enviar",
+  
+  "project1": "RM - Diseño Web",
+  "client": "Cliente",
+  "date": "Fecha",
+  "date-desc": "Junio 2020",
+  "services": "Servicios",
+  "services-desc": "Diseño Web y Programación",
+  "project1-1": "Las velocidades de las páginas móviles son muy importantes para la experiencia del usuario y el SEO. En este caso, nuestro enfoque fue dirigido a implementar un diseño atractivo y efectivo, optimizando el rendimiento de la interfaz.",
+  "project1-2": "Principales objetivos logrados: *Alojamiento web rápido *Buenas prácticas de programación *Almacenamiento en caché *Minificación *Optimización de imágenes"
 }

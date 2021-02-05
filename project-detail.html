@@ -143,5 +143,36 @@
 
 <!-- Scripts -->
 <script src="js/scripts.js"></script> 
+
+<script>
+
+	function updateText() {
+		'use strict';
+		var i18n = $.i18n(), language;
+
+		language = $( '.language option:selected' ).val();
+
+		i18n.locale = language;
+		i18n.load( 'js/i18n/languages/' + i18n.locale + '.json', i18n.locale ).done(
+			function () {
+				$('html').i18n();
+				$( 'div.row > input' ).prop( {
+					placeholder: $.i18n( 'appname-placeholder' )
+				} );
+			} );
+	}
+
+	$( document ).ready( function ( $ ) {
+		'use strict';
+		updateText();
+		$( '.language' ).on( 'change keyup', updateText );
+	} );
+
+	</script>
+	
+	<script>
+		document.getElementById("year").innerHTML = new Date().getFullYear();
+	</script>
+
 </body>
 </html>

@@ -35,5 +35,14 @@
   "message-input": "Message*",
   "msg-success": "Thank you, we'll be in touch very soon!",
   "msg-error": "We're sorry there was an error with your form.",
-  "send": "Send"
+  "send": "Send",
+  
+  "project1": "RM - Website Design",
+  "client": "Client",
+  "date": "Date",
+  "date-desc": "June 2020",
+  "services": "Services",
+  "services-desc": "Website Design and Programming",
+  "project1-1": "Mobile page speeds are very important to the user experience and SEO. In this case, our focus has always been on making a great-looking and effective design by optimizing the frontend performance.",
+  "project1-2": "Main accomplished objectives: *Fast web hosting *Clean coding practices *Caching *Minification *Image optimization"
 }
