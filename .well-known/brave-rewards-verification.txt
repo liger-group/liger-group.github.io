@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ligergroup.com
+Token: 41124e1c3973a888b43541bc2b4d5742249bedbfc3d96f71ccfb28b434a7cef8
